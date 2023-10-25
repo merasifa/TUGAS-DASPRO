@@ -31,7 +31,7 @@ public class LinearSearch28 {
         if (hasil != 0) {
         System.out.println("key ada dalam array pada posisi indeks ke-" + hasil);
         } else {
-            System.out.println("Key tidak dapat ditemukan dalam array");
+            System.out.println("key tidak ditemukan didalam array");
         }
     }
 }
