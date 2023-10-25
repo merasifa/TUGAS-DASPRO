@@ -4,13 +4,13 @@ public class Tugas28 {
     public static void main(String[] args) {
         Scanner input28 = new Scanner (System.in);
 
-        System.out.println("Masukkan banyaknya elemen: ");
+        System.out.print("Masukkan banyaknya elemen: ");
         int elemen = input28.nextInt();
 
         int[] nilaiElemen = new int [elemen];
 
         for (int i = 0; i < elemen; i++) {
-            System.out.println("Masukkan nilai elemen ke-" + (i + 1) + " : ");
+            System.out.print("Masukkan nilai elemen ke-" + (i + 1) + " : ");
             nilaiElemen[i] = input28.nextInt();
     }
 
