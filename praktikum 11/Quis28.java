@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Random; //import libraries random untuk mengacak angka
 
-public class Quiz28 {
+public class Quis28 {
     public static void main(String[] args) {
         Random random = new Random(); // inisialisasi
         Scanner input = new Scanner(System.in); // inisialisasi
