@@ -4,6 +4,7 @@ public class NestedLoop28 {
     public static void main(String[] args) {
         Scanner input28 = new Scanner (System.in);
         double array[][] = new double[5][7];
+
         // menginputkan suhu sesuai hari
         for (int i = 0; i < array.length; i++) {
         System.out.println("Kota ke- " + i);
@@ -16,10 +17,14 @@ public class NestedLoop28 {
 
         for (int i = 0; i < array.length; i++) { // menampilkan data suhu
         System.out.println("Kota ke-" + (i+1) +": ");
+        double total = 0.0;
+
             for (double suhu : array[i]) {
             System.out.println(suhu + " ");
+            total += suhu;
             }
-            System.out.println();
+            double rataRata = total / array[i].length;
+            System.out.println("\n Rata-rata suhu kota: " + rataRata);
     }
  }
     
