@@ -24,7 +24,7 @@ public class NestedLoop28 {
             total += suhu;
             }
             double rataRata = total / array[i].length;
-            System.out.println("\n Rata-rata suhu kota: " + rataRata);
+            System.out.println("Rata-rata suhu kota ke- " + (i + 1) + ": " + rataRata );
     }
  }
     
